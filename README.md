@@ -1,16 +1,28 @@
 
-# Express Starter
+# Express API Project Starter
 
--This is a starter project for expressjs w/ mysql2, sequelize
+-This is my personal starter api project for expressjs w/ mysql2, sequelize
 
 
-## Installation
-
-Install express-starter with npm
 
 ```bash
   npm i 
+
+```
+```bash
   cd express-starter
+
+```
+```bash
   npm start
+```
+```bash
+  npm run migration
+```
+```bash
+  npm run remove-migration
+```
+```bash
+  npm run remove-migrations
 ```
     
