@@ -9,14 +9,18 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      firstName: {
+      username: {
+        allowNull: false,
+        type: Sequelize.STRING,
+        unique: true
+      },
+      password: {
+        allowNull: false,
         type: Sequelize.STRING
       },
-      lastName: {
-        type: Sequelize.STRING
-      },
-      email: {
-        type: Sequelize.STRING
+      role: {
+        type: Sequelize.STRING,
+        defaultValue: 'guest'
       },
       createdAt: {
         allowNull: false,
