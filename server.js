@@ -35,7 +35,7 @@ const db = require('./models');
 db.sequelize.authenticate()
     .then(() => {
         console.log('DB CONNECTED')
-        app.listen(PORT, () => {
+        server.listen(PORT, () => {
             console.log(`YOUR PORT IS: ${PORT}`)
         })
     })
